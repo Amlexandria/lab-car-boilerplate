@@ -1,1 +1,36 @@
-/* Los estilos de tu proyecto */
+nav {
+background-color: #FFFFFF;
+  /* height: 12vh; */
+}
+
+.logo {
+  width: 70%;
+}
+
+.brand-logo {
+  margin-left: 5%;
+}
+
+.menu {
+  margin-right: 5%;
+}
+
+
+.burger {
+  width: 50%;
+  padding: 0;
+}
+
+main {
+  background-image: url("../assets/images/taxi.jpg");
+  background-position: bottom;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.inicio {
+  background-color: #F4B519;
+  height: 20rem;
+
+}
