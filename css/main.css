@@ -21,6 +21,7 @@ background-color: #FFFFFF;
   padding: 0;
 }
 
+/*MAIN*/
 main {
   background-image: url("../assets/images/taxi.jpg");
   background-position: bottom;
@@ -35,7 +36,11 @@ main .cont-comienza {
   height: auto;
 }
 
-main .row div .first-row {
+main.row {
+  margin: 0;
+}
+
+.row {
   margin-bottom: 0;
 }
 
@@ -60,10 +65,12 @@ h1 {
   border-radius: .5rem;
 }
 
+
+/*SECCIÓN 1: LA NUEVA APP*/
 .sec-2 {
   background-color: #F7B617;
   height: auto;
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
   margin-top: 0;
 }
 
@@ -71,8 +78,24 @@ h1 {
   border: 1px solid white;
   height: auto;
 }
+
 .iphone {
-  background-image: url("../assets/images/iPhone6Plus.png");
+  margin-bottom: 2rem;
+}
+
+
+
+/*SECCIÓN 2: CONDUCE CUANDO QUIERAS*/
+.sec-3 {
+  content: "";
+  background-image: url("../assets/images/conduce.jpg");
   background-position: center;
   background-size: cover;
+  height: 40rem;
+}
+
+.cover-sec3 {
+  content: "";
+  height: 40rem;
+  background-color: rgba(0,0,0,0.4);;
 }
