@@ -29,8 +29,50 @@ main {
   padding-bottom: 10rem;
 }
 
-.inicio {
-  background-color: #F4B519;
-  height: 20rem;
+main .cont-comienza {
+  background-color: #F7B617;
+  box-sizing: border-box;
+  height: auto;
+}
 
+main .row div .first-row {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight:500;
+  color: white;
+  margin: 0; 
+}
+
+.logo-blanco {
+  margin-top: 1rem;
+}
+
+.cont {
+
+  margin: 3em 0 3em 2em;
+}
+
+.descarga-el-app {
+  margin-top: .5rem;
+  border-radius: .5rem;
+}
+
+.sec-2 {
+  background-color: #F7B617;
+  height: auto;
+  padding: 2rem;
+  margin-top: 0;
+}
+
+.border-iphone{
+  border: 1px solid white;
+  height: auto;
+}
+.iphone {
+  background-image: url("../assets/images/iPhone6Plus.png");
+  background-position: center;
+  background-size: cover;
 }
