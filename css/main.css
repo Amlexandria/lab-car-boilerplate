@@ -51,21 +51,68 @@ h1 {
   margin: 0; 
 }
 
+.cont {
+  margin: 3em 0 3em 2em;
+}
+
 .logo-blanco {
   margin-top: 1rem;
 }
 
-.cont {
-
-  margin: 3em 0 3em 2em;
-}
-
 .btn-white {
   margin-top: .5rem;
-  border-radius: .5rem;
+  border-radius: .3rem;
   text-transform: none;
   font-size: 1.2rem;
 }
+
+/*main DESKTOP*/
+h5 {
+  font-weight:500;
+  color: white;
+  margin: 0; 
+}
+.logo-blanco-desktop {
+  margin-top: 1.5rem;
+  width: 20%;
+  margin-left: .5rem;
+}
+
+.cont-text-main-desktop {
+  padding: 1rem;
+}
+
+.p-viaja {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.viaja {
+  margin: 0;
+}
+
+.o-bien hr{
+  margin-top: 1.5rem;
+}
+
+.p-o-bien {
+  font-size: .8rem;
+  text-align: center;
+}
+
+.btn-regístrate {
+  margin-top: 1rem;
+  border-radius: .3rem;
+}
+
+.btn-conviértete {
+  margin-top: 1rem;
+  text-transform: none;
+  border-radius: .3rem;
+  margin-bottom: 1rem;
+}
+
+
 
 
 /*SECCIÓN 1: LA NUEVA APP*/
@@ -76,7 +123,7 @@ h1 {
   margin-top: 0;
 }
 
-.border-iphone{
+.border-iphone {
   border: 1px solid white;
   height: auto;
 }

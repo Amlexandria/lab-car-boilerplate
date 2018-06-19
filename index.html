@@ -2,8 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1,
-maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/assets/materialize.min.css">
@@ -31,8 +30,9 @@ maximum-scale=1">
       </ul>
     </div>
       <main class="row">
-        <div class="cont-comienza offset-s2 offset-m6 offset-l6 col s10 m6 l6">
-          <div class="cont">
+        <div class="cont-comienza offset-s2 offset-m6 offset-l8 col s10 m6 l4">
+          <!-- EN MOBILE -->
+          <div class="cont hide-on-med-and-up">
             <div class="row">
               <h1 class="col s12">Comienza a viajar</h1>
                 <h1 class="col s3">con</h1>
@@ -41,6 +41,22 @@ maximum-scale=1">
             <div class="row">
               <a class="btn-white waves-effect waves-light btn  col s6   black-text z-depth-0 white"><strong>Descarga el app</strong></a>
             </div>
+          </div>
+          <!-- EN DESKTOP -->
+          <div class="cont-text-main-desktop row  show-on-medium-and-up hide-on-med-and-down">
+            <h5 class="col l12 white-text"><strong>Disfrua del viaje</strong></h5>
+            <h5 class="col l12 white-text"><strong>Eres dueño de tu tiempo</strong></h5>
+            <div class="col l12">
+              <p class="p-viaja white-text">Viaja con <img class=" logo-blanco-desktop " src="assets/images/logoBlanco.png"></p>
+              <a class="btn-regístrate waves-effect waves-light btn-small black-text z-depth-0 white "><strong>Regístrate</strong></a>
+              <div class="o-bien row">
+                <hr class="col l4">
+                <p class=" p-o-bien col l4 white-text">o bien</p>
+                 <hr class="col l4">
+              </div>
+              <a class="btn-conviértete waves-effect waves-light btn-small black-text z-depth-0 white "><strong>Conviértete en conductor</strong></a>
+            </div>
+            
           </div>
         </div>
     </main>
