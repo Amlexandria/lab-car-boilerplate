@@ -126,12 +126,25 @@ h5 {
 .border-iphone {
   border: 1px solid white;
   height: auto;
+  margin-bottom: 2rem;
 }
-
+.iphone-cont {
+  padding-top: 1rem;
+}
 .iphone {
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
+
+/*sección 1 DESKTOP*/
+.text-container-sec1 {
+   padding-right: 8rem;
+}
+
+.text-container-sec1 h5 {
+  padding-top: 3rem;
+}
 
 
 /*SECCIÓN 2: CONDUCE CUANDO QUIERAS*/
@@ -140,12 +153,12 @@ h5 {
   background-image: url("../assets/images/conduce.jpg");
   background-position: center;
   background-size: cover;
-  height: 30rem;
+  height: 25rem;
 }
 
 section.sec-2 div.cover-sec2 {
   content: "";
-  height: 30rem;
+  height: 25rem;
   background-color: rgba(0,0,0,0.4);
   padding-left: 3rem;
   padding-top: 5rem;
