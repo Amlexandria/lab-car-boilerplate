@@ -117,3 +117,39 @@ p {
   text-transform: none;
   font-size: 1.2rem;
 }
+
+/*SECCIÓN 3*/
+
+.sec-3 {
+  background-color: #F7B617;
+  height: 30rem;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  padding-right: 3rem;
+}
+
+#icon_prefix {
+  border-color: white;
+}
+
+.input-field>label {
+    color: #FFF9C4;
+}
+
+label {
+  color: #FFF9C4;
+}
+
+input#icon_prefix {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+
+#icon_telephone {
+  border-color: white;
+}
+
+input#icon_telephone {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
