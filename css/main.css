@@ -63,11 +63,13 @@ h1 {
 .descarga-el-app {
   margin-top: .5rem;
   border-radius: .5rem;
+  text-transform: none;
+  font-size: 1.2rem;
 }
 
 
 /*SECCIÓN 1: LA NUEVA APP*/
-.sec-2 {
+.sec-1 {
   background-color: #F7B617;
   height: auto;
   padding: 2rem 2rem 0 2rem;
@@ -86,16 +88,32 @@ h1 {
 
 
 /*SECCIÓN 2: CONDUCE CUANDO QUIERAS*/
-.sec-3 {
+.sec-2 {
   content: "";
   background-image: url("../assets/images/conduce.jpg");
   background-position: center;
   background-size: cover;
-  height: 40rem;
+  height: 30rem;
 }
 
-.cover-sec3 {
+section.sec-2 div.cover-sec2 {
   content: "";
-  height: 40rem;
-  background-color: rgba(0,0,0,0.4);;
+  height: 30rem;
+  background-color: rgba(0,0,0,0.4);
+  padding-left: 3rem;
+  padding-top: 5rem;
+  padding-right: 3rem;
+
+}
+
+
+p {
+  font-size: 1.3rem;
+}
+
+.btn-conductor {
+  margin-top: .5rem;
+  border-radius: .5rem;
+  text-transform: none;
+  font-size: 1.2rem;
 }
