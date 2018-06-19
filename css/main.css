@@ -164,3 +164,19 @@ input#icon_telephone {
   padding-bottom: .4rem;
   margin-bottom: 3rem;
 }
+
+/*FOOTER*/
+.page-footer {
+  background-color: #2B2B2B;
+  height: auto;
+  padding: 2rem 2rem 0 2rem;
+  margin-top: 0;
+}
+
+.social-icons i {
+  margin-right: .5rem;
+}
+
+.img-gplay {
+  margin-bottom: 1rem;
+}
