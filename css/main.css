@@ -233,10 +233,23 @@ input#icon_telephone {
   margin-top: 0;
 }
 
-.social-icons i {
+.social-icons i, .social-icons-d i {
   margin-right: .5rem;
 }
 
 .img-gplay {
   margin-bottom: 1rem;
+}
+
+/*footer DESKTOP*/
+.footer-desktop p{
+  font-size: 1rem;
+}
+
+.images-footer {
+  margin-top: 12rem;
+}
+
+.social-icons-d {
+  margin-top: 17rem;
 }
