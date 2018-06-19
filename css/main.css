@@ -223,6 +223,7 @@ input#icon_telephone {
   padding-top: .9rem;
   padding-bottom: .4rem;
   margin-bottom: 3rem;
+  height: 30rem;
 }
 
 /*FOOTER*/
@@ -252,4 +253,28 @@ input#icon_telephone {
 
 .social-icons-d {
   margin-top: 17rem;
+}
+
+/*MODAL INICIO DE SESIÓN*/
+.m-inicio-sesión .row {
+  padding: 1rem; 
+}
+
+.modal {
+  background-color: rgba(118, 215, 196,.4);
+  max-height: 80%;
+  width: 40%;
+}
+
+.profile {
+  width: 10%;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+}
+
+.m-inicio-sesión i {
+  text-align: center; 
 }
